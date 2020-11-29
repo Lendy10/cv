@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<style media="screen">
+  .heart {
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    transform: rotate(-45deg);
+    transition: transform 400ms;
+
+  }
+  .heart::after {
+    background-color: pink;
+    content: "";
+    border-radius: 50%;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 0px;
+    left: 50px;
+
+
+  }
+  .heart::before {
+    content: "";
+    background-color: pink;
+    border-radius: 50%;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left: 0px;
+    top: -50px;
+
+  }
+  .heart:hover {
+    transform: rotate(-45deg) scale(2);
+
+
+
+  }
+</style>
+  <head>
+    <meta charset="utf-8">
+    <title>Animation</title>
+  </head>
+  <body>
+    <div class="heart">
+    </div>
+  </body>
+</html>

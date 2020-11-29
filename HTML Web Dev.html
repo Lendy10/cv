@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+<style media="screen">
+  .line {
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    margin-top: 100px;
+    margin-left: -10px;
+    margin-right: -10px
+  }
+  .Navbar {
+    background-color: hsl(180, 60%, 50%);
+    opacity: 0.6;
+    font-weight: bold;
+    color: inherit;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+  }
+  a {
+    color: inherit;
+    font-size: 45;
+  }
+  div {
+    height: 100px;
+    width: 70%;
+  }
+  .Seven {
+    display: block;
+    margin: auto;
+    background-color: red;
+  }
+  .You {
+    margin: auto;
+    transform: skewX(24deg);
+    transform: skewY(-10deg);
+    background-color: blue;
+  }
+  section {
+    position: relative;
+    margin-top: 300px;
+    padding-top: 50px;
+  }
+  #EDU {
+    margin-top: 100px;
+  }
+  .polaroid a {
+          background: #ffffff;
+          display: inline-block;
+          margin: 55px 75px 30px;
+          padding: 15px 15px 30px;
+          text-align: center;
+          text-decoration: none;
+          -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+          -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+          box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+          -webkit-transition: all .20s linear;
+          -moz-transition: all .20s linear;
+          transition: all .20s linear;
+          z-index: 0;
+          position: relative;
+        }
+        .polaroid a:after {
+          color: #333;
+          font-size: 25px;
+          content: attr(title);
+          position: relative;
+          top: 15px;
+        }
+        .polaroid img {
+          display: block;
+          width: 250px;
+        }
+        .polaroid a:hover {
+          -webkit-transform: scale(1.2);
+          -moz-transform: scale(1.2);
+          transform: scale(1.2);
+          z-index: 10;
+          -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+          -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+        }
+        label {
+          margin-top: 5px;
+          margin-bottom: 5px;
+        }
+        input {
+          margin-top: 5px;
+          margin-bottom: 5px;
+          align: center;
+        }
+</style>
+  <head>
+    <meta charset="utf-8">
+    <title>Lendy site</title>
+  </head>
+  <body>
+    <header>
+      <h1>Lendy Site</h1>
+      <nav class="Navbar">
+          <a href="hobbies.html" id="Hobbies">Hobbies</a>
+          <a href="#">working</a>
+          <a href="#">Bizzare</a>
+      </nav>
+    </header>
+    <div class="polaroid">
+        <a href="#" title="My landing into Timika">
+          <img height="250" width="250" src="20180119_074744.jpg" alt="Santorini" title="my landing into timika" />
+        </a>
+      </div>
+  <br>
+    </div>
+    <section>
+    <div class="Seven"></div>
+    <div class="You"></div>
+    <h3 id="EDU">Click <a href="education.html">here</a> to access my education</h3>
+    </section>
+    <form action="mailto:lendy.pradhana.hartono-2016@fst.unair.ac.id" method="post" enctype="text/plain">
+      <label for="">Your name: </label>
+      <input type="text" name="Your Name" value=""><br>
+      <label for="">Your email: </label>
+      <input type="email" name="Your email " value=""><br>
+      <label for="">Your telephone: </label>
+      <input type="tel" name="Your telephone number " value=""><br>
+      <label for="">Your message: </label>
+      <textarea name="Your message " rows="8" cols="40"></textarea><br>
+      <input type="submit" name="" value="Submit">
+
+    </form>
+    <section>
+      <table style="border-style: solid">
+        <caption cellspacing="30">Skills and Expertise</caption>
+        <tbody>
+          <td>MysQL</td>
+          <td>⭐⭐⭐</td>
+          <td>Flutter</td>
+          <td>⭐⭐⭐</td>
+        </tbody>
+        <tbody>
+          <td>Android Studio</td>
+          <td>⭐⭐⭐⭐</td>
+          <td>Dart</td>
+          <td>⭐⭐⭐⭐</td>
+        </tbody>
+        <tbody>
+          <td>HTML & CSS</td>
+          <td>⭐⭐⭐</td>
+          <td>Photoshop</td>
+          <td>⭐⭐⭐⭐</td>
+        </tbody>
+      </table>
+    </section>
+    <form style="margin: 10px; padding-top: 10px" class="" action="index.html" method="post">
+      <label for="Name" id="name">Nama: </label>
+      <input type="text" name="YourName" value=""><br>
+      <label for="">Password: </label>
+      <input type="password" name="" value=""><br>
+      <label for="">Hidden: </label>
+      <input type="hidden" name="" value=""><br>
+      <label for="">Search: </label>
+      <input type="search" name="" value=""><br>
+      <label for="">email: </label>
+      <input type="email" name="" value=""><br>
+      <label for="">url: </label>
+      <input type="url" name="" value=""><br>
+      <label for="">datetime local: </label>
+      <input type="datetime-local" name="" value=""><br>
+      <label for="">datetime: </label>
+      <input type="datetime" name="" value=""><br>
+      <label for="">month: </label>
+      <input type="month" name="" value=""><br>
+      <label for="">week: </label>
+      <input type="week" name="" value=""><br>
+      <label for="">time: </label>
+      <input type="time" name="" value=""><br>
+      <label for="">telephone: </label>
+      <input type="tel" name="" value=""><br>
+      <label for="">number: </label>
+      <input type="number" name="" value=""><br>
+      <label for="">color: </label>
+      <input type="color" name="" value=""><br>
+    </form>
+  </body>
+</html>
